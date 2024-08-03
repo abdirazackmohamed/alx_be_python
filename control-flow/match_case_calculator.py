@@ -4,18 +4,18 @@ operation = input("Choose the operation (+, -, *, /):")
 match operation:
     case "+":
         summation = number_1 + number_2
-        print(f"sum of the two number is : {summation}")
+        print(f"The result is : {summation}")
     case "-":
         subtract = number_1 - number_2
-        print(f"subtraction of the two number is : {subtract}")
+        print(f"The result is : {subtract}")
     case "*":
         multiply = number_1 * number_2
-        print(f"multiplication of the two number is : {multiply}")
+        print(f"The result is : {multiply}")
     case "/":
         if number_2 == 0:
             print("can't divide by zero you cunt")
         else:
             divide = number_1 / number_2
-            print(f"division of the two number is : {divide}")
+            print(f"The result is : {divide}")
     case _:
         print("invalid entry")
